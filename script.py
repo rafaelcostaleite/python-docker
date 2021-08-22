@@ -1,8 +1,13 @@
-import pandas as pd
+def main():
 
-lst = ['Java', 'Python', 'C', 'C++', 'JavaScript', 'Swift', 'Go']
+	import pandas as pd
 
-# Calling DataFrame
-dframe = pd.DataFrame(lst)
-print(dframe)
-print("Meu script do Python 4")
+	lst = ['Java', 'Python', 'C', 'C++', 'JavaScript', 'Swift', 'Go']
+
+	# Calling DataFrame
+	dframe = pd.DataFrame(lst)
+	print(dframe)
+	print("Meu script do Python 4")
+
+if __name__ == "__main__":
+    main()
